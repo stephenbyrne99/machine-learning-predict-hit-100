@@ -17,10 +17,9 @@ This was achieved by using features gathered from Spotify’s API such as:
 - valence
 - artist
  
-This was mainly numerical data which we scaled during preprocessing, except for the artists name. 
-Each arist is their own category. 
+This was mainly numerical data (with some categorical data) which we scaled during preprocessing, except for the artists name which was encoded as another category. 
 
-We then used a variety of classifiers studied over the course such as a lasso + logistic  classifier, kNN and random forest classifier, and experimented with new methods like XGBoost, to output a binary decision of if a track would appear in the top 100 or not. 
+We then used a variety of classifiers studied over the course such as a logistc w/l1 penalty + logistic  classifier, kNN and random forest classifier, and experimented with new methods like XGBoost, to output a binary decision of if a track would appear in the top 100 or not. 
 
 
 ## :ledger: Index
