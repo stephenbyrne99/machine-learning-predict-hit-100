@@ -30,7 +30,7 @@ def read_h5_file(file_path):
 # data_path = Path("../dataset/millionsongsubset_full/MillionSongSubset/data/A/A/A/TRAAAAW128F429D538.h5")
 
 # Read the whole database summary into one file
-h5 = hdf5_getters.open_h5_file_read("C:/Users/schee/Documents/University/4/Machine Learning/group assignment/dataset/millionsongsubset_full/MillionSongSubset/AdditionalFiles/subset_msd_summary_file.h5")
+h5 = hdf5_getters.open_h5_file_read("pathTo/millionsongsubset_full/MillionSongSubset/AdditionalFiles/subset_msd_summary_file.h5")
 
 number_of_rows = 1000
 
